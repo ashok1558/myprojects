@@ -17,5 +17,5 @@ http.createServer(function(request, response){
     response.end("Hello World\nHello America");
 }).listen(9000);
 
-//to notify that server is running on 127.0.0.1:8000
-console.log('Server running at http://127.0.0.1:8000/');
+//to notify that server is running on 127.0.0.1:9000
+console.log('Server running at http://127.0.0.1:9000/');
